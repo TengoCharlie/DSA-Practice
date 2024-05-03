@@ -1,6 +1,6 @@
 //param A : string
 //return an integer
-module.exports = function (A) {
+module.exports =  function (A) {
     // return bruteForce(A);
     return optimisation(A);
 }
@@ -18,7 +18,7 @@ function optimisation(A) {
 function isPalindrome_0(i, arr) {
     if (arr[i] !== arr[arr.length - 1 - i]) return 0;
     if (i == Math.floor(arr.length / 2) - 1) return 1;
-    return checkOppIdexValue(i + 1, arr);
+    return isPalindrome_0(i + 1, arr);
 }
 
 // Using recursion with readability;
@@ -45,9 +45,11 @@ function bruteForce(A) {
 
     if (length % 2 == 0) loopCount = length / 2;
     else loopCount = (length - 1) / 2
+    
     for (let i = 0, j = length - 1; i < loopCount, j >= loopCount; i++, j--) {
         if (A[i] != A[j]) return 0;
     }
+    
     return 1;
 }
 
