@@ -1,7 +1,7 @@
 
 const mergeTwoSortedArrays = require("./mergeTwoSortedArrays");
 
-describe("Count Pair Difference Tests", () => {
+describe("Merge Two Sorted Array Tests", () => {
     const cases = [
         [[4, 7, 9], [2, 11, 19], [2, 4, 7, 9, 11, 19]] 
         [[1], [2], [1, 2]]
