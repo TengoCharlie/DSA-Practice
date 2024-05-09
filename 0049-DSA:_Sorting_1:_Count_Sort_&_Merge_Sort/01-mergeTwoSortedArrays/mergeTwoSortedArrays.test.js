@@ -9,9 +9,10 @@ describe("Merge Two Sorted Array Tests", () => {
     ]
 
 
-    test.concurrent.each(cases)
-        ('On Input %s and %i should return %i ', (a, b, expected) => {
-            const result = mergeTwoSortedArrays(a, b);
-            expect(result).toBe(expected);
-        });
+    cases.forEach((el) => {
+        test(`Should Return ${el[2]}, on Input A = ${el[0]} and B = ${el[1]}`, () => {
+            const result = mergeTwoSortedArrays(el[0], el[1]);
+            expect(result).toEqual(el[2]);
+        })
+    })
 });
