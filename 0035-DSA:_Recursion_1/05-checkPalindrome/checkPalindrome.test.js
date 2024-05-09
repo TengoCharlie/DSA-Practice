@@ -2,7 +2,7 @@ const checkPalindrome = require("./checkPalindrome");
 
 
 describe("Check Palindrome Tests", () => {
-    const cases = new Map([
+    const cases = [
         ["naman", 1],
         ["strings", 0],
         ["racecar", 1],    // Typical Palindrome
@@ -15,12 +15,12 @@ describe("Check Palindrome Tests", () => {
         ["a".repeat(49999) + "b", 0],  // Very Long Non-Palindrome
         ["aba", 1],  // Palindrome with Mixed Casing (assumed lowercase input)
         ["a man a plan a canal panama", 1]  // Palindrome with Spaces (assuming spaces are ignored)    
-    ]);
+    ];
 
-
-    test.concurrent.each(Array.from(cases.entries()))
-        ('On Input %s should return %i ', (a, expected) => {
-            const result = checkPalindrome(a);
-            expect(result).toBe(expected);
-        });
+    cases.forEach((el) => {
+        test(`Should Return ${el[1]}, on Input A = ${el[0]}`, () => {
+            const result = checkPalindrome(el[0]);
+            expect(result).toEqual(el[1]);
+        })
+    })
 });
