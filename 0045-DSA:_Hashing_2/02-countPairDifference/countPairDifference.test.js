@@ -13,9 +13,10 @@ describe("Count Pair Difference Tests", () => {
     ]
 
 
-    test.concurrent.each(cases)
-        ('On Input %s and %i should return %i ', (a, b, expected) => {
-            const result = countPairDifference(a, b);
+    cases.forEach(([A, B, expected]) => {
+        test(`Should Return ${expected}, on Input A = ${A} and B = ${B}`, () => {
+            const result = countPairDifference(A, B);
             expect(result).toBe(expected);
-        });
+        })
+    })
 });
