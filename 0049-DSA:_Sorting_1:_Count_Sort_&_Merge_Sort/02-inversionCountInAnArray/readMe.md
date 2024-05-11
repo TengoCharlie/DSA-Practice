@@ -66,7 +66,7 @@ Return the number of inversions of A modulo \(10^9 + 7\).
   ```
 
 
-Visual Explanation: Solution
+### Visual Explanation: Solution
 
 ```mermaid
 graph TD;
@@ -90,7 +90,7 @@ graph TD;
     D -->|Merge 1 inversions| L([18, 28, 44]):::inversion
     G -->|Merge| M
     M -->|Merge| L
-    J --> O; K -->|Merge 1 inversion| O([14, 41]):::inversion
+    J -->|Merge| O; K -->|Merge 1 inversion| O([14, 41]):::inversion
     H -->|Merge 2 inversions| N([14, 41, 49]):::inversion
     O -->|Merge| N
 
