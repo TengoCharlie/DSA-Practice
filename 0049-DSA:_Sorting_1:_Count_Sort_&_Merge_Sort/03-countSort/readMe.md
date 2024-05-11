@@ -1,5 +1,3 @@
-Certainly! Here's the HTML content converted into the Markdown format, including the Mermaid flowchart for a visual explanation of counting inversions using a merge sort-based method. This conversion will replicate the structured data provided in your HTML with appropriate Markdown styling and diagrammatic representation.
-
 ### Q3: Count Sort
 
 #### Problem Description
