@@ -28,7 +28,7 @@ function inversionValueCount(A, l, m, r) {
     let k = 0;
 
     while(i<= m && j<= r){
-        if(A[i]<A[j]){
+        if(A[i]<=A[j]){
             temp[k] = A[i];
             i++;
             k++;
