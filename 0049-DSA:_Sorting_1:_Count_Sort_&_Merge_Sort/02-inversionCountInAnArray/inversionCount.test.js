@@ -4,7 +4,9 @@ const inversionCount = require("./inversionCount");
 describe("Inversion Count In An Array Tests", () => {
     const cases = [
         [[1, 3, 2], 1],
-        [[3, 4, 1, 2], 4]
+        [[3, 4, 1, 2], 4],
+        [[45, 10, 15, 25, 50], 3],
+        [[28, 18, 44, 49, 41, 14], 8]
         // TODO
     ]
 
