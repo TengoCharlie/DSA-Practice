@@ -25,6 +25,5 @@ function getFactorsCount(val){
         }
         i--;
     }
-    console.log(count, val )
     return count;
 }
