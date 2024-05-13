@@ -40,10 +40,10 @@ Each directory within this repository is labeled according to the DSA concept it
 ## Viewing Test Results and Coverage
 
 - **Test Report URL:**  
-  View Test Reports -> <workspaceDirectory>/coverage/pass_fail_report/
+  View Test Reports -> `<workspaceDirectory>/coverage/pass_fail_report/`
 
 - **Coverage Report URL:**  
-  View Coverage Details -> <workspaceDirectory>/coverage/lcov-report/
+  View Coverage Details -> `<workspaceDirectory>/coverage/lcov-report/`
 
 ## Additional Notes
 
