@@ -1,7 +1,7 @@
 
 const singleElementInSortedArray = require("./singleElementInSortedArray");
 
-describe("Factors Sort Tests", () => {
+describe("Single Element Sorted Array Tests", () => {
     const cases = [
         [[1, 1, 7], 7],
         [[2, 3, 3], 2],
