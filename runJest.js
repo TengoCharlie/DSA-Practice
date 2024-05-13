@@ -22,7 +22,7 @@ const jestOptions = report
 
 const jestCommand = `jest ${pathPattern} ${jestOptions}`;
 console.log(`Running: ${jestCommand}`);
-exec(jestCommand, { shell: true }, (error, stdout, stderr) => {
+exec(jestCommand, { shell: true, env: { ...process.env, FORCE_COLOR: true }}, (error, stdout, stderr) => {
     if (error) {
         console.error(`exec error: ${error}`);
         return;
