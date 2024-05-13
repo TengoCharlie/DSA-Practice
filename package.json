@@ -4,12 +4,15 @@
   "description": "",
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test:path": "node runJest.js",
+    "test": "jest --coverage=false --reporters=default",
+    "report": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "jest-html-reporters": "^3.1.7"
   }
 }
