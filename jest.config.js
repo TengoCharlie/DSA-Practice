@@ -199,7 +199,7 @@ const config = {
     "default", // Keep Jest's default reporter for console outputs
     ["jest-html-reporters", {
       "publicPath": "./coverage/pass_fail_report", // Directory where the report will be saved
-      "filename": "report.html", // Name of the output file
+      "filename": "index.html", // Name of the output file
       "expand": true, // Expand test suites in the report by default
     }]
   ]
