@@ -40,10 +40,10 @@ Each directory within this repository is labeled according to the DSA concept it
 ## Viewing Test Results and Coverage
 
 - **Test Report URL:**  
-  View Test Reports -> `<workspaceDirectory>/coverage/pass_fail_report/`
+  View Test Reports -> [Test Report](https://tengocharlie.github.io/DSA-Practice/coverage/pass_fail_report/index.html)
 
 - **Coverage Report URL:**  
-  View Coverage Details -> `<workspaceDirectory>/coverage/lcov-report/`
+  View Coverage Details -> [Coverage Report](https://tengocharlie.github.io/DSA-Practice/coverage/lcov-report/index.html)
 
 ## Additional Notes
 
