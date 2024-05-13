@@ -8,7 +8,7 @@ module.exports = function (A) {
     }
 
     function inversionCount(A, l, r) {
-        if (l == r) {
+        if (l == r || A.length == 0) {
             return 0;
         }
 
