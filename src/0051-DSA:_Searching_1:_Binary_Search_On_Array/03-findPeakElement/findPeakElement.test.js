@@ -4,7 +4,8 @@ const findPeakElement = require("./findPeakElement");
 describe("Factors Sort Tests", () => {
     const cases = [
         [[1, 2, 3, 4, 5], 5],
-        [[5, 17, 100, 11], 100]
+        [[5, 17, 100, 11], 100],
+        [[5,10,20,56,98,9,6,8,100,82,5], 98]
         // TODO
     ]
 
