@@ -1,3 +1,7 @@
 module.exports = function (A){
-    return 0
+    return solution(A);
+}
+
+function solution(A){
+    
 }
