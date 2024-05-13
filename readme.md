@@ -65,7 +65,7 @@ This README provides a clear guide on how to use the repository, run tests, and 
 
 For visual enhancements, you might consider adding badges for build status, coverage percentage, or other relevant metrics using services like Shields.io or similar. Here's an example of how to add a badge:
 
-```markdown
+
 ![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen)
-```
+
 
