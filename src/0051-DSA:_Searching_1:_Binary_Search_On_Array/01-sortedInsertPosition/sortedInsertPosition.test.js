@@ -1,7 +1,7 @@
 
 const sortedInsertPosition = require("./sortedInsertPosition");
 
-describe("Factors Sort Tests", () => {
+describe("Sorted Insert Position Tests", () => {
     const cases = [
         [[1, 3, 5, 6], 5, 2],
         [[1, 4, 9], 3, 1]

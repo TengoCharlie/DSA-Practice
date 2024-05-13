@@ -1,7 +1,7 @@
 
 const findPeakElement = require("./findPeakElement");
 
-describe("Factors Sort Tests", () => {
+describe("Find A Peak Tests", () => {
     const cases = [
         [[1, 2, 3, 4, 5], 5],
         [[5, 17, 100, 11], 100],
