@@ -1,5 +1,40 @@
 module.exports = function (A, B) {
     return Solution(A, B);
+    return Optimisation (A, B);
+}
+
+function Optimisation(A, B){
+    return [lb(A, B), ub(A, B)]
+}
+
+
+function lb(A, b){
+    let lo = 0,
+   hi = A.length - 1,
+   ans = -1,
+   mid;
+ while (lo <= hi) {
+   mid = (lo + hi) >> 1;
+   if (A[mid] == b) ans = mid;
+   if (A[mid] < b) lo = mid + 1;
+   else hi = mid - 1;
+ }
+ return ans;
+}
+
+
+function ub(A, b){
+    let lo = 0,
+   hi = A.length - 1,
+   ans = -1,
+   mid;
+ while (lo <= hi) {
+   mid = (lo + hi) >> 1;
+   if (A[mid] == b) ans = mid;
+   if (A[mid] <= b) lo = mid + 1;
+   else hi = mid - 1;
+ }
+ return ans;
 }
 
 function Solution(A, B) {
