@@ -1,10 +1,10 @@
 const LinkedList = require("./linkedList");
 
-describe("Aggressive Cows Problem Tests", () => {
+describe("Linked List Problem Tests", () => {
     const cases = [
 
         {
-            action: [
+            actions: [
                 {
                     type: 'insert',
                     pos: 1,
@@ -44,9 +44,9 @@ describe("Aggressive Cows Problem Tests", () => {
             const results = [];
             actions.forEach(action => {
                 if (action.type === "insert") {
-                    linkedList.insert_node(action.position, action.value);
+                    linkedList.insert_node(action.pos, action.value);
                 } else if (action.type === "delete") {
-                    linkedList.delete_node(action.position);
+                    linkedList.delete_node(action.pos);
                 } else if (action.type === "print") {
                     results.push(linkedList.print_ll().trim());
                 }
