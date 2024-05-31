@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1716756999414" clover="3.2.0">
-  <project timestamp="1716756999414" name="All files">
-    <metrics statements="821" coveredstatements="710" conditionals="219" coveredconditionals="192" methods="58" coveredmethods="51" elements="1098" coveredelements="953" complexity="0" loc="821" ncloc="821" packages="20" files="20" classes="20"/>
+<coverage generated="1717194290835" clover="3.2.0">
+  <project timestamp="1717194290835" name="All files">
+    <metrics statements="851" coveredstatements="738" conditionals="227" coveredconditionals="200" methods="66" coveredmethods="58" elements="1144" coveredelements="996" complexity="0" loc="851" ncloc="851" packages="22" files="22" classes="22"/>
     <package name="0035-DSA:_Recursion_1.05-checkPalindrome">
       <metrics statements="54" coveredstatements="34" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="3"/>
-      <file name="checkPalindrome.js" path="/workspaces/DSA-Practice/src/0035-DSA:_Recursion_1/05-checkPalindrome/checkPalindrome.js">
+      <file name="checkPalindrome.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0035-DSA:_Recursion_1/05-checkPalindrome/checkPalindrome.js">
         <metrics statements="54" coveredstatements="34" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="3"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -64,7 +64,7 @@
     </package>
     <package name="0045-DSA:_Hashing_2.02-countPairDifference">
       <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <file name="countPairDifference.js" path="/workspaces/DSA-Practice/src/0045-DSA:_Hashing_2/02-countPairDifference/countPairDifference.js">
+      <file name="countPairDifference.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0045-DSA:_Hashing_2/02-countPairDifference/countPairDifference.js">
         <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="7" type="stmt"/>
@@ -86,7 +86,7 @@
     </package>
     <package name="0045-DSA:_Hashing_2.03-subArraySum">
       <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-      <file name="subArraySum.js" path="/workspaces/DSA-Practice/src/0045-DSA:_Hashing_2/03-subArraySum/subArraySum.js">
+      <file name="subArraySum.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0045-DSA:_Hashing_2/03-subArraySum/subArraySum.js">
         <metrics statements="19" coveredstatements="19" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -111,7 +111,7 @@
     </package>
     <package name="0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort.01-mergeTwoSortedArrays">
       <metrics statements="28" coveredstatements="25" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="mergeTwoSortedArrays.js" path="/workspaces/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/01-mergeTwoSortedArrays/mergeTwoSortedArrays.js">
+      <file name="mergeTwoSortedArrays.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/01-mergeTwoSortedArrays/mergeTwoSortedArrays.js">
         <metrics statements="28" coveredstatements="25" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -145,7 +145,7 @@
     </package>
     <package name="0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort.02-inversionCountInAnArray">
       <metrics statements="79" coveredstatements="68" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="4"/>
-      <file name="inversionCount.js" path="/workspaces/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/02-inversionCountInAnArray/inversionCount.js">
+      <file name="inversionCount.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/02-inversionCountInAnArray/inversionCount.js">
         <metrics statements="79" coveredstatements="68" conditionals="13" coveredconditionals="13" methods="5" coveredmethods="4"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="5" type="stmt"/>
@@ -230,7 +230,7 @@
     </package>
     <package name="0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort.03-countSort">
       <metrics statements="47" coveredstatements="47" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
-      <file name="countSort.js" path="/workspaces/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/03-countSort/countSort.js">
+      <file name="countSort.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/03-countSort/countSort.js">
         <metrics statements="47" coveredstatements="47" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -283,7 +283,7 @@
     </package>
     <package name="0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort.04-reversePair">
       <metrics statements="75" coveredstatements="75" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
-      <file name="reversePair.js" path="/workspaces/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/04-reversePair/reversePair.js">
+      <file name="reversePair.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0049-DSA:_Sorting_1:_Count_Sort_&_Merge_Sort/04-reversePair/reversePair.js">
         <metrics statements="75" coveredstatements="75" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -364,7 +364,7 @@
     </package>
     <package name="0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem.01-factorsSort">
       <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
-      <file name="factorsSort.js" path="/workspaces/DSA-Practice/src/0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem/01-factorsSort/factorsSort.js">
+      <file name="factorsSort.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem/01-factorsSort/factorsSort.js">
         <metrics statements="29" coveredstatements="29" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -399,7 +399,7 @@
     </package>
     <package name="0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem.02-largestNumber">
       <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="largestNumber.js" path="/workspaces/DSA-Practice/src/0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem/02-largestNumber/largestNumber.js">
+      <file name="largestNumber.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0050-DSA:_Sorting_2:_Quick_Sort_&_Comparator_Problem/02-largestNumber/largestNumber.js">
         <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -410,7 +410,7 @@
     </package>
     <package name="0051-DSA:_Searching_1:_Binary_Search_On_Array.01-sortedInsertPosition">
       <metrics statements="27" coveredstatements="27" conditionals="10" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="sortedInsertPosition.js" path="/workspaces/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/01-sortedInsertPosition/sortedInsertPosition.js">
+      <file name="sortedInsertPosition.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/01-sortedInsertPosition/sortedInsertPosition.js">
         <metrics statements="27" coveredstatements="27" conditionals="10" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -443,7 +443,7 @@
     </package>
     <package name="0051-DSA:_Searching_1:_Binary_Search_On_Array.02-searchForRange">
       <metrics statements="89" coveredstatements="48" conditionals="19" coveredconditionals="13" methods="5" coveredmethods="2"/>
-      <file name="searchForRange.js" path="/workspaces/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/02-searchForRange/searchForRange.js">
+      <file name="searchForRange.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/02-searchForRange/searchForRange.js">
         <metrics statements="89" coveredstatements="48" conditionals="19" coveredconditionals="13" methods="5" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="cond" truecount="0" falsecount="1"/>
@@ -538,7 +538,7 @@
     </package>
     <package name="0051-DSA:_Searching_1:_Binary_Search_On_Array.03-findPeakElement">
       <metrics statements="25" coveredstatements="25" conditionals="14" coveredconditionals="13" methods="2" coveredmethods="2"/>
-      <file name="findPeakElement.js" path="/workspaces/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/03-findPeakElement/findPeakElement.js">
+      <file name="findPeakElement.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/03-findPeakElement/findPeakElement.js">
         <metrics statements="25" coveredstatements="25" conditionals="14" coveredconditionals="13" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="6" type="stmt"/>
@@ -569,7 +569,7 @@
     </package>
     <package name="0051-DSA:_Searching_1:_Binary_Search_On_Array.04-singleElementInSortedArray">
       <metrics statements="33" coveredstatements="30" conditionals="12" coveredconditionals="10" methods="2" coveredmethods="2"/>
-      <file name="singleElementInSortedArray.js" path="/workspaces/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/04-singleElementInSortedArray/singleElementInSortedArray.js">
+      <file name="singleElementInSortedArray.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/04-singleElementInSortedArray/singleElementInSortedArray.js">
         <metrics statements="33" coveredstatements="30" conditionals="12" coveredconditionals="10" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -608,7 +608,7 @@
     </package>
     <package name="0051-DSA:_Searching_1:_Binary_Search_On_Array.05-matrixSearch">
       <metrics statements="26" coveredstatements="24" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
-      <file name="matrixSearch.js" path="/workspaces/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/05-matrixSearch/matrixSearch.js">
+      <file name="matrixSearch.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0051-DSA:_Searching_1:_Binary_Search_On_Array/05-matrixSearch/matrixSearch.js">
         <metrics statements="26" coveredstatements="24" conditionals="9" coveredconditionals="8" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -640,7 +640,7 @@
     </package>
     <package name="0052-DSA:_Searching_2:_Binary_Search_Problem.01-rotatedSortedArraySearch">
       <metrics statements="49" coveredstatements="38" conditionals="17" coveredconditionals="15" methods="4" coveredmethods="3"/>
-      <file name="rotatedSortedArraySearch.js" path="/workspaces/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/01-rotatedSortedArraySearch/rotatedSortedArraySearch.js">
+      <file name="rotatedSortedArraySearch.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/01-rotatedSortedArraySearch/rotatedSortedArraySearch.js">
         <metrics statements="49" coveredstatements="38" conditionals="17" coveredconditionals="15" methods="4" coveredmethods="3"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
@@ -695,7 +695,7 @@
     </package>
     <package name="0052-DSA:_Searching_2:_Binary_Search_Problem.02-medianOfArray">
       <metrics statements="49" coveredstatements="46" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3"/>
-      <file name="medianOfArray.js" path="/workspaces/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/02-medianOfArray/medianOfArray.js">
+      <file name="medianOfArray.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/02-medianOfArray/medianOfArray.js">
         <metrics statements="49" coveredstatements="46" conditionals="18" coveredconditionals="15" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="4" type="stmt"/>
@@ -750,7 +750,7 @@
     </package>
     <package name="0052-DSA:_Searching_2:_Binary_Search_Problem.03-squareRootInteger">
       <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
-      <file name="squareRootInteger.js" path="/workspaces/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/03-squareRootInteger/squareRootInteger.js">
+      <file name="squareRootInteger.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0052-DSA:_Searching_2:_Binary_Search_Problem/03-squareRootInteger/squareRootInteger.js">
         <metrics statements="22" coveredstatements="22" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -778,7 +778,7 @@
     </package>
     <package name="0053-DSA:_Searching_3:_Binary_Search_On_Answers.01-aggressiveCows">
       <metrics statements="37" coveredstatements="37" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
-      <file name="aggressiveCows.js" path="/workspaces/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/01-aggressiveCows/aggressiveCows.js">
+      <file name="aggressiveCows.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/01-aggressiveCows/aggressiveCows.js">
         <metrics statements="37" coveredstatements="37" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -821,7 +821,7 @@
     </package>
     <package name="0053-DSA:_Searching_3:_Binary_Search_On_Answers.02-painterPartition">
       <metrics statements="40" coveredstatements="38" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="3"/>
-      <file name="painterPartition.js" path="/workspaces/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/02-painterPartition/painterPartition.js">
+      <file name="painterPartition.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/02-painterPartition/painterPartition.js">
         <metrics statements="40" coveredstatements="38" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="3"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
@@ -865,10 +865,44 @@
         <line num="40" count="5" type="stmt"/>
       </file>
     </package>
+    <package name="0056-DSA:_Linked_List_1:_Introduction.01-palindromeList">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="palindromeList.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0056-DSA:_Linked_List_1:_Introduction/01-palindromeList/palindromeList.js">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="0056-DSA:_Linked_List_1:_Introduction.02-reverseLinkedList">
+      <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="reverseLinkedList.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0056-DSA:_Linked_List_1:_Introduction/02-reverseLinkedList/reverseLinkedList.js">
+        <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="20" type="stmt"/>
+        <line num="13" count="20" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="0056-DSA:_Linked_List_1:_Introduction.03-linkedList">
-      <metrics statements="72" coveredstatements="57" conditionals="14" coveredconditionals="9" methods="5" coveredmethods="5"/>
-      <file name="linkedList.js" path="/workspaces/DSA-Practice/src/0056-DSA:_Linked_List_1:_Introduction/03-linkedList/linkedList.js">
-        <metrics statements="72" coveredstatements="57" conditionals="14" coveredconditionals="9" methods="5" coveredmethods="5"/>
+      <metrics statements="80" coveredstatements="65" conditionals="19" coveredconditionals="14" methods="10" coveredmethods="10"/>
+      <file name="linkedList.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0056-DSA:_Linked_List_1:_Introduction/03-linkedList/linkedList.js">
+        <metrics statements="80" coveredstatements="65" conditionals="19" coveredconditionals="14" methods="10" coveredmethods="10"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="3" count="2" type="stmt"/>
@@ -941,6 +975,14 @@
         <line num="70" count="3" type="stmt"/>
         <line num="71" count="3" type="stmt"/>
         <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="cond" truecount="5" falsecount="0"/>
       </file>
     </package>
   </project>
