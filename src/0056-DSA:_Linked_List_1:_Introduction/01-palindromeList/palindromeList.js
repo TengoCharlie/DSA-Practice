@@ -1,18 +1,18 @@
 module.exports = function (A) {
-    return bruteForce(A);
+    return optimised(A);
 }
 
-function bruteForce(head) {
+function optimised(head) {
     // let size = getSize(head);
     // const midIndex = size % 2 ? (size + 1) / 2 : size / 2;
     // let midHead = getMidHead(head, midIndex+1);
     let midHead = getMidHead(head);
     const midReverse = reverseLinkedList(midHead);
-    const result = isPalindrome(head, midReverse);
+    const result = compare(head, midReverse);
     return result;
 }
 
-function isPalindrome(head, leg) {
+function compare(head, leg) {
     while (leg != null) {
         if (head.data != leg.data) return 0;
         head = head.next;
