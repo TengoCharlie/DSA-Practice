@@ -7,6 +7,8 @@ describe("Palindrome List Tests", () => {
         [[1, 2, 3, 2, 1], 1],
         [[1, 2, 3, 3, 2], 0],
         [[1, 3, 2], 0],
+        [[1, 3, 4, 2], 0],
+        [[1, 3, 4, 4, 3, 1], 1],
     ]
 
     function LNode(data) {
@@ -22,14 +24,8 @@ describe("Palindrome List Tests", () => {
                 temp.next = new LNode(A[i]);
                 temp = temp.next;
             }
-            const result = reverseLinkedList(head);
-            temp = result;
-            const arr = [temp.data];
-            while (temp.next != null) {
-                temp = temp.next;
-                arr.push(temp.data)
-            }
-            expect(arr).toEqual(B);
+            const result = palindromeList(head);
+            expect(result).toEqual(B);
         })
     })
 });
