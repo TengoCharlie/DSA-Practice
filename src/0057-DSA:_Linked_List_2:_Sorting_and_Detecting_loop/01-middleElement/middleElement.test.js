@@ -1,4 +1,5 @@
 const middleElement = require("./middleElement");
+const LNode = require("./../../../utils/linkedListNode")
 
 describe("Middle Element of Linked List Tests", () => {
     const cases = [
@@ -13,10 +14,6 @@ describe("Middle Element of Linked List Tests", () => {
         }
     ];
 
-    function LNode(data) {
-        this.data = data;
-        this.next = null;
-    }
 
     cases.forEach(({input, expected}) => {
         test(`Should return ${expected} as the middle element for the linked list ${input}`, () => {
