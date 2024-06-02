@@ -1,4 +1,6 @@
 const mergeTwoSortedLists = require("./mergeSortedLinkedList");
+const arrayToList = require("./../../../utils/arrayToLinkedList");
+const listToArray = require("./../../../utils/linkedListToArray");
 
 describe("Merge Two Sorted Lists Tests", () => {
     const cases = [
@@ -25,31 +27,6 @@ describe("Merge Two Sorted Lists Tests", () => {
         }
     ];
 
-    function LNode(data) {
-        this.data = data;
-        this.next = null;
-    }
-
-    function arrayToList(arr) {
-        if (arr.length === 0) return null;
-        let head = new LNode(arr[0]);
-        let temp = head;
-        for (let i = 1; i < arr.length; i++) {
-            temp.next = new LNode(arr[i]);
-            temp = temp.next;
-        }
-        return head;
-    }
-
-    function listToArray(list) {
-        const arr = [];
-        let temp = list;
-        while (temp) {
-            arr.push(temp.data);
-            temp = temp.next;
-        }
-        return arr;
-    }
 
     cases.forEach(({inputA, inputB, expected}) => {
         test(`Should return ${expected} when merging lists ${inputA} and ${inputB}`, () => {
