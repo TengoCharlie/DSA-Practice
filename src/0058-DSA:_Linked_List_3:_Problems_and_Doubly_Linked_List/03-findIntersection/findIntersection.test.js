@@ -15,7 +15,17 @@ describe("Intersection of Linked Lists Tests", () => {
             inputA: [1, 2, 3],
             inputB: [4, 5],
             intersection: []
-        }
+        },
+        {
+            inputA: [1, 5, 2, 3],
+            inputB: [5, 2, 3],
+            intersection: [5, 2, 3]
+        },
+        {
+            inputA: [5, 2, 3],
+            inputB: [5, 2, 3],
+            intersection: [5, 2, 3]
+        },
     ];
 
 
