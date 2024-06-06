@@ -1,14 +1,18 @@
 const findIntersection = require("./findIntersection");
 const arrayToList = require("./../../../utils/arrayToLinkedList");
 const listToArray = require("./../../../utils/linkedListToArray");
-const LNode = require('./../../../utils/linkedListNode');
 
 describe("Intersection of Linked Lists Tests", () => {
     const cases = [
         // Test cases
         {
-            inputA: [1, 2, 3, 4, 5],
-            inputB: [6, 3, 4, 5],
+            inputA: [1, 2],
+            inputB: [6, 7],
+            intersection: [3, 4, 5]
+        },
+        {
+            inputA: [1, 2],
+            inputB: [6],
             intersection: [3, 4, 5]
         },
         {
@@ -17,37 +21,44 @@ describe("Intersection of Linked Lists Tests", () => {
             intersection: []
         },
         {
-            inputA: [1, 5, 2, 3],
-            inputB: [5, 2, 3],
+            inputA: [1],
+            inputB: [],
             intersection: [5, 2, 3]
         },
         {
-            inputA: [5, 2, 3],
-            inputB: [5, 2, 3],
+            inputA: [],
+            inputB: [],
             intersection: [5, 2, 3]
+        },
+        {
+            inputA: [1, 2],
+            inputB: [3],
+            intersection: [4]
         },
     ];
 
 
     function createIntersectingLists(inputA, inputB, intersection) {
-        const listA = arrayToList(inputA);
-        const listB = arrayToList(inputB);
+        let listA = arrayToList(inputA);
+        let listB = arrayToList(inputB);
         const intersectList = arrayToList(intersection);
 
-        if (!listA || !listB) return { listA, listB };
 
-        let tempA = listA;
+        if (!listA) listA = intersectList;
+        else {let tempA = listA;
         while (tempA.next) {
             tempA = tempA.next;
         }
-        tempA.next = intersectList;
+        tempA.next = intersectList;}
 
-        let tempB = listB;
-        while (tempB.next) {
-            tempB = tempB.next;
+        if (!listB) listB = intersectList;
+        else {
+            let tempB = listB;
+            while (tempB.next) {
+                tempB = tempB.next;
+            }
+            tempB.next = intersectList;
         }
-        tempB.next = intersectList;
-
         return { listA, listB };
     }
 
