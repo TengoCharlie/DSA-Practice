@@ -1,11 +1,47 @@
-const listToArray = require("./../../../utils/linkedListToArray");
-
 module.exports = function (A, B) {
     const result = solution(A, B);
     return result;
 }
 
-function solution(A, B){
+function solution(A, B) {
+
+    if (A == B) return A;
+    const lA = findLength(A);
+    const lB = findLength(B);
+
+    if (lA == lB) {
+        return binarySearch(A, B);
+    } else if (lA < lB) { 
+        const lDiff = lB - lA;
+        const bHead = getNewHead(B, lDiff);
+        return binarySearch(A, bHead);
+    } else {
+        const lDiff = lA - lB;
+        const aHead = getNewHead(A, lDiff);
+        return binarySearch(aHead, B);
+    }
+}
+
+function getNewHead(head, nextHeadIndex) {
+    let temp = head;
+    let count = nextHeadIndex
+    while (count) {
+        temp = temp.next;
+        count--;
+    }
+    return temp;
+}
+function findLength(A) {
+    let size = 0;
+    let temp = A;
+    while (temp) {
+        size++;
+        temp = temp.next;
+    }
+    return size;
+}
+
+function binarySearch(A, B){
     let l1 = A;
     let l2 = B;
     let h1 = null;
@@ -14,8 +50,8 @@ function solution(A, B){
 
     while (l1 != h1 && l2 != h2) {
         const { m1, m2 } = findMid(l1, l2, h1, h2);
-        if (m1.next === m2.next) {
-            ans = m1.next;
+        if (m1 === m2) {
+            ans = m1;
             h1 = m1;
             h2 = m2;
         } else {
@@ -48,4 +84,24 @@ function findMid(l1, l2, h1 = null, h2 = null) {
         m1: s1,
         m2: s2
     }
+}
+
+
+// Not preferred While learning LINKEDLIST
+function usingHasSetAlgo(A, B) {
+    let listASet = new Set();
+
+    while (A) {
+        listASet.add(A);
+        A = A.next;
+    }
+
+    while (B) {
+        if (listASet.has(B)) {
+            return B
+        }
+        listASet.add(B);
+        B = B.next;
+    }
+    return null
 }
