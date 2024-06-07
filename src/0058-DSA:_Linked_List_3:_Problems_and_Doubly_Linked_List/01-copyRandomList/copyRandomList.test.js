@@ -22,6 +22,26 @@ describe("Copy List with Random Pointer Tests", () => {
                 nodes: [4, 5, 6, 7],
                 randoms: [1, 3, 2, 0]
             }
+        },
+        {
+            input: {
+                nodes: [4, 5, 6, 7],
+                randoms: []
+            },
+            expected: {
+                nodes: [4, 5, 6, 7],
+                randoms: [null, null, null, null]
+            }
+        },
+        {
+            input: {
+                nodes: [],
+                randoms: []
+            },
+            expected: {
+                nodes: [],
+                randoms: []
+            }
         }
     ];
 
