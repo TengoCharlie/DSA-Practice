@@ -1,4 +1,4 @@
-const LRUCache = require("./LRUCache");
+const {LRUCache} = require("./LRUCache");
 
 
 describe("LRU Cache Tests", () => {
