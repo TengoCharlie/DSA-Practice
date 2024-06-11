@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717939816280" clover="3.2.0">
-  <project timestamp="1717939816280" name="All files">
-    <metrics statements="1448" coveredstatements="1252" conditionals="355" coveredconditionals="322" methods="113" coveredmethods="102" elements="1916" coveredelements="1676" complexity="0" loc="1448" ncloc="1448" packages="31" files="33" classes="33"/>
+<coverage generated="1718120321060" clover="3.2.0">
+  <project timestamp="1718120321060" name="All files">
+    <metrics statements="1484" coveredstatements="1288" conditionals="372" coveredconditionals="339" methods="120" coveredmethods="109" elements="1976" coveredelements="1736" complexity="0" loc="1484" ncloc="1484" packages="37" files="39" classes="39"/>
+    <package name="src.0033-DSA:Bit_Manipulation_1.01-setBit">
+      <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="setBit.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/01-setBit/setBit.js">
+        <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0033-DSA:Bit_Manipulation_1.02-unsetBit">
+      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="unsetBit.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/02-unsetBit/unsetBit.js">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0033-DSA:Bit_Manipulation_1.03-checkBit">
+      <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="checkBit.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/03-checkBit/checkBit.js">
+        <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0033-DSA:Bit_Manipulation_1.04-numSetBits">
+      <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="numSetBits.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/04-numSetBits/numSetBits.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="160" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="160" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="160" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="145" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="160" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0033-DSA:Bit_Manipulation_1.05-minHelpFromSam">
+      <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+      <file name="minHelpFromSam.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/05-minHelpFromSam/minHelpFromSam.js">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="160" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="160" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0033-DSA:Bit_Manipulation_1.06-toggleBit">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="toggleBit.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/06-toggleBit/toggleBit.js">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
     <package name="src.0035-DSA:_Recursion_1.05-checkPalindrome">
       <metrics statements="54" coveredstatements="34" conditionals="9" coveredconditionals="9" methods="5" coveredmethods="3"/>
       <file name="checkPalindrome.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0035-DSA:_Recursion_1/05-checkPalindrome/checkPalindrome.js">
@@ -1632,14 +1704,14 @@
       <file name="linkedListToArray.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/utils/linkedListToArray.js">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="13" type="stmt"/>
-        <line num="3" count="13" type="stmt"/>
-        <line num="4" count="13" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="42" type="stmt"/>
-        <line num="6" count="42" type="stmt"/>
-        <line num="7" count="42" type="stmt"/>
-        <line num="8" count="13" type="stmt"/>
-        <line num="9" count="13" type="stmt"/>
+        <line num="2" count="14" type="stmt"/>
+        <line num="3" count="14" type="stmt"/>
+        <line num="4" count="14" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="40" type="stmt"/>
+        <line num="6" count="40" type="stmt"/>
+        <line num="7" count="40" type="stmt"/>
+        <line num="8" count="14" type="stmt"/>
+        <line num="9" count="14" type="stmt"/>
       </file>
     </package>
   </project>
