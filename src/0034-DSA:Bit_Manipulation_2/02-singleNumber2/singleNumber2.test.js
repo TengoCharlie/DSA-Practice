@@ -1,4 +1,4 @@
-const singleNumberII = require("./singleNumber");
+const singleNumberII = require("./singleNumber2");
 
 describe("Single Number II Tests", () => {
     const cases = [
