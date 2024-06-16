@@ -1,7 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718120321060" clover="3.2.0">
-  <project timestamp="1718120321060" name="All files">
-    <metrics statements="1484" coveredstatements="1288" conditionals="372" coveredconditionals="339" methods="120" coveredmethods="109" elements="1976" coveredelements="1736" complexity="0" loc="1484" ncloc="1484" packages="37" files="39" classes="39"/>
+<coverage generated="1718551496693" clover="3.2.0">
+  <project timestamp="1718551496693" name="All files">
+    <metrics statements="1707" coveredstatements="1507" conditionals="419" coveredconditionals="384" methods="134" coveredmethods="123" elements="2260" coveredelements="2014" complexity="0" loc="1707" ncloc="1707" packages="43" files="45" classes="45"/>
+    <package name="src.0026-DSA:Bit_Manipulation_Basics.07-addBinaryString">
+      <metrics statements="42" coveredstatements="42" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+      <file name="addBinaryString.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0026-DSA:Bit_Manipulation_Basics/07-addBinaryString/addBinaryString.js">
+        <metrics statements="42" coveredstatements="42" conditionals="9" coveredconditionals="9" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="17" count="24" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="24" count="24" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="26" count="24" type="stmt"/>
+        <line num="27" count="24" type="stmt"/>
+        <line num="28" count="24" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="30" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="24" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="24" type="cond" truecount="1" falsecount="0"/>
+        <line num="33" count="22" type="stmt"/>
+        <line num="34" count="22" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="24" type="stmt"/>
+        <line num="41" count="24" type="stmt"/>
+        <line num="42" count="24" type="stmt"/>
+      </file>
+    </package>
     <package name="src.0033-DSA:Bit_Manipulation_1.01-setBit">
       <metrics statements="5" coveredstatements="5" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
       <file name="setBit.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0033-DSA:Bit_Manipulation_1/01-setBit/setBit.js">
@@ -72,6 +120,217 @@
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="5" type="stmt"/>
         <line num="3" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0034-DSA:Bit_Manipulation_2.01-singleNumber">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="singleNumber.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0034-DSA:Bit_Manipulation_2/01-singleNumber/singleNumber.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="5" count="17" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0034-DSA:Bit_Manipulation_2.02-singleNumber2">
+      <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+      <file name="singleNumber2.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0034-DSA:Bit_Manipulation_2/02-singleNumber2/singleNumber2.js">
+        <metrics statements="15" coveredstatements="15" conditionals="5" coveredconditionals="5" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="160" type="stmt"/>
+        <line num="5" count="160" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="832" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="143" type="stmt"/>
+        <line num="8" count="143" type="stmt"/>
+        <line num="9" count="832" type="stmt"/>
+        <line num="10" count="160" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="14" type="stmt"/>
+        <line num="12" count="14" type="stmt"/>
+        <line num="13" count="160" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0034-DSA:Bit_Manipulation_2.03-singleNumber3">
+      <metrics statements="42" coveredstatements="41" conditionals="18" coveredconditionals="17" methods="9" coveredmethods="9"/>
+      <file name="singleNumber3.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0034-DSA:Bit_Manipulation_2/03-singleNumber3/singleNumber3.js">
+        <metrics statements="42" coveredstatements="41" conditionals="18" coveredconditionals="17" methods="9" coveredmethods="9"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+        <line num="12" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="13" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="16" type="stmt"/>
+        <line num="15" count="42" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="26" type="stmt"/>
+        <line num="17" count="26" type="stmt"/>
+        <line num="18" count="42" type="stmt"/>
+        <line num="19" count="6" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="21" count="6" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="25" count="7" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="7" type="cond" truecount="0" falsecount="1"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="6" type="stmt"/>
+        <line num="31" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="42" type="stmt"/>
+        <line num="33" count="42" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="cond" truecount="5" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.0034-DSA:Bit_Manipulation_2.04-findTwoMissingNumbers">
+      <metrics statements="44" coveredstatements="43" conditionals="17" coveredconditionals="16" methods="4" coveredmethods="4"/>
+      <file name="findTwoMissingNumbers.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0034-DSA:Bit_Manipulation_2/04-findTwoMissingNumbers/findTwoMissingNumbers.js">
+        <metrics statements="44" coveredstatements="43" conditionals="17" coveredconditionals="16" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="8" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="10" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="25" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="13" type="stmt"/>
+        <line num="13" count="25" type="cond" truecount="1" falsecount="0"/>
+        <line num="14" count="12" type="stmt"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="25" type="stmt"/>
+        <line num="17" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="37" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="19" type="stmt"/>
+        <line num="20" count="37" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="18" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
+        <line num="23" count="37" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="9" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="9" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="25" type="stmt"/>
+        <line num="39" count="25" type="stmt"/>
+        <line num="40" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="41" count="37" type="stmt"/>
+        <line num="42" count="37" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="44" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.0034-DSA:Bit_Manipulation_2.06-subarrayOrSum">
+      <metrics statements="73" coveredstatements="73" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <file name="subarrayOrSum.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0034-DSA:Bit_Manipulation_2/06-subarrayOrSum/subarrayOrSum.js">
+        <metrics statements="73" coveredstatements="73" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="6" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="8" count="10" type="stmt"/>
+        <line num="9" count="10" type="stmt"/>
+        <line num="10" count="10" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="320" type="stmt"/>
+        <line num="12" count="320" type="stmt"/>
+        <line num="13" count="320" type="stmt"/>
+        <line num="14" count="320" type="cond" truecount="1" falsecount="0"/>
+        <line num="15" count="4224" type="cond" truecount="1" falsecount="0"/>
+        <line num="16" count="952" type="stmt"/>
+        <line num="17" count="952" type="stmt"/>
+        <line num="18" count="4224" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="3272" type="stmt"/>
+        <line num="20" count="3272" type="stmt"/>
+        <line num="21" count="4224" type="stmt"/>
+        <line num="22" count="320" type="stmt"/>
+        <line num="23" count="320" type="stmt"/>
+        <line num="24" count="320" type="stmt"/>
+        <line num="25" count="320" type="stmt"/>
+        <line num="26" count="320" type="stmt"/>
+        <line num="27" count="320" type="stmt"/>
+        <line num="28" count="10" type="stmt"/>
+        <line num="29" count="10" type="stmt"/>
+        <line num="30" count="10" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="stmt"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.0035-DSA:_Recursion_1.05-checkPalindrome">
@@ -849,12 +1108,12 @@
       </file>
     </package>
     <package name="src.0053-DSA:_Searching_3:_Binary_Search_On_Answers.01-aggressiveCows">
-      <metrics statements="37" coveredstatements="37" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
+      <metrics statements="37" coveredstatements="37" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
       <file name="aggressiveCows.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/01-aggressiveCows/aggressiveCows.js">
-        <metrics statements="37" coveredstatements="37" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="cond" truecount="3" falsecount="0"/>
+        <metrics statements="37" coveredstatements="37" conditionals="10" coveredconditionals="10" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="2" type="stmt"/>
@@ -866,40 +1125,40 @@
         <line num="12" count="3" type="stmt"/>
         <line num="13" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="14" count="2" type="stmt"/>
-        <line num="15" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="17" count="1" type="stmt"/>
-        <line num="18" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
         <line num="19" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
-        <line num="22" count="3" type="stmt"/>
-        <line num="23" count="3" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="25" count="3" type="stmt"/>
-        <line num="26" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="9" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="4" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="28" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="29" count="4" type="stmt"/>
-        <line num="30" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="31" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="35" count="9" type="cond" truecount="1" falsecount="0"/>
         <line num="36" count="1" type="stmt"/>
         <line num="37" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.0053-DSA:_Searching_3:_Binary_Search_On_Answers.02-painterPartition">
-      <metrics statements="40" coveredstatements="40" conditionals="12" coveredconditionals="10" methods="4" coveredmethods="4"/>
+      <metrics statements="40" coveredstatements="38" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="3"/>
       <file name="painterPartition.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0053-DSA:_Searching_3:_Binary_Search_On_Answers/02-painterPartition/painterPartition.js">
-        <metrics statements="40" coveredstatements="40" conditionals="12" coveredconditionals="10" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="cond" truecount="3" falsecount="0"/>
+        <metrics statements="40" coveredstatements="38" conditionals="10" coveredconditionals="8" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="2" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="2" type="stmt"/>
         <line num="7" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="8" count="2" type="stmt"/>
@@ -909,32 +1168,32 @@
         <line num="12" count="5" type="stmt"/>
         <line num="13" count="5" type="stmt"/>
         <line num="14" count="5" type="stmt"/>
-        <line num="15" count="5" type="cond" truecount="0" falsecount="1"/>
-        <line num="16" count="5" type="stmt"/>
-        <line num="17" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="18" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="5" type="cond" truecount="0" falsecount="1"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
         <line num="19" count="5" type="stmt"/>
-        <line num="20" count="5" type="stmt"/>
-        <line num="21" count="5" type="stmt"/>
-        <line num="22" count="5" type="stmt"/>
-        <line num="23" count="5" type="stmt"/>
-        <line num="24" count="5" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="5" type="cond" truecount="1" falsecount="0"/>
         <line num="25" count="5" type="stmt"/>
-        <line num="26" count="5" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="16" type="stmt"/>
-        <line num="28" count="16" type="stmt"/>
-        <line num="29" count="16" type="cond" truecount="1" falsecount="1"/>
-        <line num="30" count="9" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="cond" truecount="1" falsecount="0"/>
+        <line num="29" count="16" type="cond" truecount="0" falsecount="1"/>
+        <line num="30" count="16" type="stmt"/>
         <line num="31" count="16" type="cond" truecount="1" falsecount="0"/>
-        <line num="32" count="7" type="stmt"/>
-        <line num="33" count="7" type="stmt"/>
-        <line num="34" count="5" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="33" count="16" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="7" type="stmt"/>
+        <line num="35" count="7" type="stmt"/>
+        <line num="36" count="7" type="stmt"/>
+        <line num="37" count="16" type="stmt"/>
+        <line num="38" count="16" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="40" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.0056-DSA:_Linked_List_1:_Introduction.01-palindromeList">
@@ -1009,15 +1268,15 @@
       </file>
     </package>
     <package name="src.0056-DSA:_Linked_List_1:_Introduction.02-reverseLinkedList">
-      <metrics statements="19" coveredstatements="19" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
+      <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
       <file name="reverseLinkedList.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0056-DSA:_Linked_List_1:_Introduction/02-reverseLinkedList/reverseLinkedList.js">
-        <metrics statements="19" coveredstatements="19" conditionals="5" coveredconditionals="5" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="cond" truecount="3" falsecount="0"/>
+        <metrics statements="19" coveredstatements="19" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
@@ -1025,9 +1284,9 @@
         <line num="11" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="20" type="stmt"/>
         <line num="13" count="20" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="14" count="20" type="stmt"/>
+        <line num="15" count="20" type="stmt"/>
+        <line num="16" count="20" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
@@ -1282,18 +1541,18 @@
       </file>
     </package>
     <package name="src.0057-DSA:_Linked_List_2:_Sorting_and_Detecting_loop.03-sortLinkList">
-      <metrics statements="58" coveredstatements="58" conditionals="16" coveredconditionals="16" methods="5" coveredmethods="5"/>
+      <metrics statements="58" coveredstatements="58" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
       <file name="sortLinkList.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0057-DSA:_Linked_List_2:_Sorting_and_Detecting_loop/03-sortLinkList/sortLinkList.js">
-        <metrics statements="58" coveredstatements="58" conditionals="16" coveredconditionals="16" methods="5" coveredmethods="5"/>
-        <line num="1" count="1" type="cond" truecount="2" falsecount="0"/>
+        <metrics statements="58" coveredstatements="58" conditionals="14" coveredconditionals="14" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="5" count="4" type="stmt"/>
-        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="7" count="16" type="stmt"/>
-        <line num="8" count="16" type="stmt"/>
-        <line num="9" count="16" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="16" type="cond" truecount="1" falsecount="0"/>
         <line num="10" count="16" type="stmt"/>
         <line num="11" count="16" type="stmt"/>
         <line num="12" count="16" type="cond" truecount="3" falsecount="0"/>
@@ -1305,55 +1564,55 @@
         <line num="18" count="6" type="stmt"/>
         <line num="19" count="6" type="stmt"/>
         <line num="20" count="6" type="stmt"/>
-        <line num="21" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="21" count="6" type="stmt"/>
         <line num="22" count="6" type="stmt"/>
-        <line num="23" count="6" type="stmt"/>
-        <line num="24" count="6" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="25" count="6" type="stmt"/>
-        <line num="26" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="27" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="28" count="6" type="stmt"/>
-        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="30" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+        <line num="29" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
         <line num="31" count="6" type="stmt"/>
         <line num="32" count="6" type="stmt"/>
-        <line num="33" count="6" type="stmt"/>
-        <line num="34" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="35" count="6" type="stmt"/>
         <line num="36" count="6" type="stmt"/>
-        <line num="37" count="13" type="cond" truecount="1" falsecount="0"/>
-        <line num="38" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="39" count="10" type="stmt"/>
-        <line num="40" count="10" type="stmt"/>
-        <line num="41" count="10" type="cond" truecount="1" falsecount="0"/>
-        <line num="42" count="5" type="stmt"/>
+        <line num="37" count="6" type="stmt"/>
+        <line num="38" count="6" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="10" type="cond" truecount="1" falsecount="0"/>
         <line num="43" count="5" type="stmt"/>
         <line num="44" count="5" type="stmt"/>
-        <line num="45" count="10" type="stmt"/>
-        <line num="46" count="6" type="stmt"/>
-        <line num="47" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="48" count="6" type="cond" truecount="1" falsecount="0"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="57" count="1" type="stmt"/>
-        <line num="58" count="1" type="stmt"/>
+        <line num="45" count="5" type="stmt"/>
+        <line num="46" count="5" type="stmt"/>
+        <line num="47" count="5" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="5" type="stmt"/>
+        <line num="50" count="5" type="stmt"/>
+        <line num="51" count="10" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="6" type="cond" truecount="1" falsecount="0"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="6" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
       </file>
     </package>
     <package name="src.0057-DSA:_Linked_List_2:_Sorting_and_Detecting_loop.04-removeLoop">
-      <metrics statements="22" coveredstatements="22" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
+      <metrics statements="22" coveredstatements="22" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
       <file name="removeLoop.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/src/0057-DSA:_Linked_List_2:_Sorting_and_Detecting_loop/04-removeLoop/removeLoop.js">
-        <metrics statements="22" coveredstatements="22" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
-        <line num="1" count="1" type="cond" truecount="3" falsecount="0"/>
+        <metrics statements="22" coveredstatements="22" conditionals="7" coveredconditionals="7" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
         <line num="2" count="3" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="cond" truecount="1" falsecount="0"/>
         <line num="6" count="3" type="stmt"/>
         <line num="7" count="3" type="stmt"/>
         <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
@@ -1362,13 +1621,13 @@
         <line num="11" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="12" count="2" type="stmt"/>
         <line num="13" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="14" count="2" type="stmt"/>
-        <line num="15" count="2" type="stmt"/>
-        <line num="16" count="3" type="cond" truecount="1" falsecount="0"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="6" type="cond" truecount="1" falsecount="0"/>
         <line num="21" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
       </file>
@@ -1684,34 +1943,34 @@
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
         <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="4" count="30" type="cond" truecount="2" falsecount="0"/>
-        <line num="5" count="23" type="stmt"/>
-        <line num="6" count="23" type="stmt"/>
-        <line num="7" count="30" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="33" type="stmt"/>
-        <line num="9" count="33" type="stmt"/>
-        <line num="10" count="33" type="cond" truecount="1" falsecount="0"/>
-        <line num="11" count="23" type="stmt"/>
-        <line num="12" count="23" type="stmt"/>
+        <line num="4" count="26" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="20" type="stmt"/>
+        <line num="6" count="20" type="stmt"/>
+        <line num="7" count="26" type="cond" truecount="1" falsecount="0"/>
+        <line num="8" count="27" type="stmt"/>
+        <line num="9" count="27" type="stmt"/>
+        <line num="10" count="27" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="20" type="stmt"/>
+        <line num="12" count="20" type="stmt"/>
       </file>
       <file name="linkedListNode.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/utils/linkedListNode.js">
         <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="64" type="stmt"/>
-        <line num="3" count="64" type="stmt"/>
-        <line num="4" count="64" type="stmt"/>
+        <line num="2" count="60" type="stmt"/>
+        <line num="3" count="60" type="stmt"/>
+        <line num="4" count="60" type="stmt"/>
       </file>
       <file name="linkedListToArray.js" path="/Users/carnera-harsh/Documents/GitHub/DSA-Practice/utils/linkedListToArray.js">
         <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
-        <line num="2" count="14" type="stmt"/>
-        <line num="3" count="14" type="stmt"/>
-        <line num="4" count="14" type="cond" truecount="1" falsecount="0"/>
-        <line num="5" count="40" type="stmt"/>
-        <line num="6" count="40" type="stmt"/>
-        <line num="7" count="40" type="stmt"/>
-        <line num="8" count="14" type="stmt"/>
-        <line num="9" count="14" type="stmt"/>
+        <line num="2" count="13" type="stmt"/>
+        <line num="3" count="13" type="stmt"/>
+        <line num="4" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="5" count="42" type="stmt"/>
+        <line num="6" count="42" type="stmt"/>
+        <line num="7" count="42" type="stmt"/>
+        <line num="8" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
       </file>
     </package>
   </project>
