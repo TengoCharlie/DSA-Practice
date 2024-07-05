@@ -44,4 +44,32 @@ What is the time complexity of the following code snippet?
 - [ ] O(n)
 - [ ] O(n^2)
 - [ ] O(n log n)
-- [ ] O(n + n log n)
+- [x] O(n + n log n)
+
+You can submit your answer by selecting the correct option.
+
+---
+
+## Solution Approach
+
+### Step-by-Step Solution
+
+1. **Understanding the Code Snippet**:
+   - The code initializes a vector/array list.
+   - It then appends integers from 0 to n-1 to the list.
+   - Finally, it sorts the list.
+
+2. **Analyzing Time Complexity**:
+   - The `for` loop runs `n` times, each time performing a `push_back` or `append` operation which is `O(1)` on average.
+     - Therefore, the loop has a time complexity of `O(n)`.
+   - The `sort` function typically uses an efficient sorting algorithm like Timsort or QuickSort, which has an average time complexity of `O(n log n)`.
+
+3. **Combining the Time Complexities**:
+   - The total time complexity is the sum of the time complexities of the two operations:
+     - Inserting `n` elements: `O(n)`
+     - Sorting `n` elements: `O(n log n)`
+   - Thus, the overall time complexity is `O(n + n log n)`.
+
+### Conclusion
+
+The time complexity of the given code snippet is `O(n + n log n)`. This approach can be applied to similar problems by breaking down each step and analyzing the time complexity of each operation, then combining them for the total complexity.
